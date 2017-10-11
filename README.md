@@ -9,6 +9,8 @@ Each move by the computer players take 2.5 seconds long so the user can each mov
 
 When the wild card is selected, the four colors will appear on the interface so the user can easily choose.
 
+![UI](https://raw.githubusercontent.com/philipchen32/uno-web-app/master/UI%20demo%20image.png)
+
 # Rules I automated for the user
 
 -Drawing a card when required, in order for quick play
