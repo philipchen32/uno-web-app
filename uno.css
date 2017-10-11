@@ -1,0 +1,138 @@
+#name-title{
+	text-align:center;
+}
+
+.gameboard{
+	width:1000px;
+	height: 560px;
+	border: 25px solid #333;
+	background-image: url("images/cherry-rug.jpg");
+}
+
+#cpu-2{
+	clear: both;
+	width: 60%;
+	height: 130px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.square{
+	position: absolute;
+	z-index: -1;
+	width: 120px;
+    height: 120px;
+    box-shadow: 3px 3px 1px black;
+    padding: 1px;
+}
+
+.red.square{
+    top: 180px;
+    left: 420px;
+    background-color: #FF0000;
+}
+
+.blue.square{
+    top: 180px;
+    left: 545px;
+    background-color: #0000FF;
+}
+.yellow.square{
+    top: 305px;
+    left: 420px;
+    background-color: #FFA500;
+}
+
+.green.square{
+    top: 305px;
+    left: 545px;
+    background-color: #228B22;
+}
+
+#test1{
+	position: absolute;
+	left: 460px;
+}
+#test2{
+	position: absolute;
+	left:490px;
+}
+#cpu-name-2{
+	text-align: center;
+}
+
+#cpu-name-1{
+	float: left;
+}
+
+#cpu-1{
+	padding-top: 20px;
+	float: left;	
+	margin: 0 auto;
+}
+
+#play-area{
+	background-color: beige;
+	border-color: red;
+	float:left;
+	margin: 35px 35px 75px 75px;
+	padding: 100px 350px 100px 350px;
+}
+
+#direction{
+	position:absolute;
+	top:250px;
+	left:500px
+}
+
+#deck{
+	position: absolute;
+	top: 250px;
+	left: 375px;
+}
+
+#currentCard{
+	position: absolute;
+	top: 250px;
+	left: 620px;
+}
+#cpu-3{
+	padding-top: 20px;
+	float: right;
+}
+
+
+#user-hand{
+	clear: both;
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+img{
+	width: 75px;
+	height: 110px;
+}
+
+#user-hand img{
+	/*display: inline-block;*/
+	width: 75px;
+}
+
+#kathy-name{
+	margin-left: 30px;
+	font-style: italic;
+	font-family: Georgia, "Lucida Console";
+}
+
+#bon-name{
+	font-style: italic;
+	font-family: Georgia, "Lucida Console";
+	margin-right: 30px;
+}
+#ash-name{
+	clear: both;
+	font-style: italic;
+	font-family: Georgia, "Lucida Console";
+	top: 200px;
+}
