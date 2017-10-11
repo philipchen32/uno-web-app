@@ -9,7 +9,7 @@ Each move by the computer players take 2.5 seconds long so the user can each mov
 
 When the wild card is selected, the four colors will appear on the interface so the user can easily choose.
 
-# Rules I automated for you
+# Rules I automated for the user
 
 -Drawing a card when required, in order for quick play
 
